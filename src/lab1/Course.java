@@ -5,8 +5,8 @@ import javax.swing.*;
 public abstract class Course {
 
     String courseNumber;
-    private String courseName;
-    private double credits;
+    String courseName;
+    double credits;
 
     public String getCourseNumber() {
         return courseNumber;
